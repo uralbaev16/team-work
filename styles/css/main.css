@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: black;
+}
+.head__text {
+  padding: 12px;
+  color: #fff;
+}
+.head__strong {
+  text-decoration-line: underline;
+}
+.head__english {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 12px 0;
+  color: #fff;
+}
+
+header {
+  padding: 0 130px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0 20px;
+}
+.header__logo {
+  padding-right: 100px;
+  font-size: 24px;
+}
+.header__logo a {
+  color: black;
+  text-decoration: none;
+}
+.header ul {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 16px;
+}
+.header ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header ul li:hover {
+  text-decoration: underline;
+}
+.header .sign__in__li {
+  color: black;
+  text-decoration: none;
+  padding-right: 50px;
+}
+.header .form {
+  display: flex;
+  align-items: center;
+}
+.header .form__input {
+  padding: 10px 25px;
+  max-width: 243px;
+  height: 38px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  font-size: 14px;
+  outline: none;
+}
+.header .search {
+  width: 100%;
+  max-width: 28px;
+  height: 28px;
+}
+.header .heart__img {
+  width: 100%;
+  max-width: 25px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.header__cart {
+  max-width: 32px;
+  width: 100%;
+  height: 32px;
+}
+
+.line1 {
+  width: 100%;
+  border: 0.5px solid #d9d9d9;
+  margin-bottom: 40px;
+}
+
+.intro2 {
+  padding: 0 90px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 65px;
+  border: 1px solid #fff;
+  background-color: black;
+}
+.intro .appleLogo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.intro .series__14,
+.intro .vaucher,
+.intro .shop__now {
+  color: #fff;
+}
+.intro .series__14 {
+  font-size: 16px;
+}
+.intro .vaucher {
+  max-width: 294px;
+  font-size: 48px;
+}
+.intro .shop__now {
+  font-size: 16px;
+}
+.intro .iphone__img {
+  max-width: 490px;
+  width: 100%;
+}
+
+.product__section .product__title {
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.product__section .product__title .title__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.product__section .product__title .title__wrap .title__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.product__section .product__title .title__wrap .title__wrapper .title__box {
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #DB4444;
+}
+.product__section .product__title .title__wrap .title__wrapper h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #DB4444;
+}
+.product__section .product__title h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.product__section .product__title .arrow__wrapper {
+  display: flex;
+  gap: 8px;
+}
+.product__section .cards {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+.product__section .cards .card__wrapper .card {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 250px;
+  background-color: #F5F5F5;
+}
+.product__section .cards .card__wrapper .card__text {
+  display: inline-block;
+  gap: 8px;
+}
+.product__section .cards .card__wrapper .card__text .card__name {
+  margin-bottom: 8px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.product__section .cards .card__wrapper .card__text .card_prices {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.product__section .cards .card__wrapper .card__text .card_prices .card__discount {
+  color: #DB4444;
+}
+.product__section .cards .card__wrapper .card__text .card_prices .card__real__price {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.product__section .product__btn {
+  margin-bottom: 60px;
+  position: relative;
+  top: 126px;
+  left: 520px;
+  color: #FAFAFA;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 48px;
+  border: none;
+  background-color: #DB4444;
+  border-radius: 4px;
+}
+
+.category__section .category__cards {
+  display: flex;
+  gap: 30px;
+}
+.category__section .category__cards .category__card__wrapper {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 25px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+}
+.category__section .category__cards .category__card__wrapper:hover {
+  background-color: #DB4444;
+  color: #F5F5F5;
+  transition: 0.3s;
+}
+
+@media (max-width: 448px) {
+  .intro2 {
+    padding: 0;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .head__text {
+    max-width: 550px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=main.css.map */
