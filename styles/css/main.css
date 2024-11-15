@@ -5,7 +5,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1202px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -153,6 +153,11 @@ header {
   width: 100%;
 }
 
+.product__section {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
 .product__section .product__title {
   margin-top: 74px;
   display: flex;
@@ -227,10 +232,11 @@ header {
   opacity: 0.5;
 }
 .product__section .product__btn {
-  margin-bottom: 60px;
-  position: relative;
-  top: 126px;
-  left: 520px;
+  text-align: center;
+  margin-top: 126px;
+}
+.product__section .product__btn button {
+  text-align: center;
   color: #FAFAFA;
   font-size: 16px;
   font-weight: 500;
