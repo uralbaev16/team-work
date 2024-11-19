@@ -1,0 +1,50 @@
+.category{
+    position: relative;
+    &__content{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    &__line{
+        width: 100%;
+        max-width: 1170px;
+        height: 1px;
+        background-color: #808080;
+        position: absolute;
+        right:120px ;
+        opacity: 30%;
+    }
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        overflow: auto;
+        margin-top: 60px;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+        cursor: pointer;
+        width: 200px;
+        height: 175px;
+        border: 1px solid #0000004D;
+        i{
+            font-size: 30px;
+        }
+
+        &:hover{
+            background: $bg-py;
+            color: #fff;
+        }
+    }
+}

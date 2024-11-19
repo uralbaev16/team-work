@@ -1,206 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <title>E-commerce</title>
-    <link rel="stylesheet" href="./styles/css/minified/main.min.css" />
-    <script type="module" src="./main.js"></script>
-  </head>
-  <div class="head">
-    <div class="head__text">
-      Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-      <strong class="head__strong">ShopNow</strong>
-    </div>
-    <div class="head__english">
-      <p>English</p>
-      <img class="head__img" src="./assets/DropDown.png" alt="" />
-    </div>
-  </div>
-  <body>
-    <div class="container">
-      <header>
-        <div class="header">
-          <div class="header__logo">
-            <a href="#">Exclusive</a>
-          </div>
-          <ul class="header__ul">
-            <li>Home</li>
-            <li>Contact</li>
-            <li>About</li>
-            <li><a class="sign__in__li" href="./login.html">Sign in</a></li>
-          </ul>
-          <form>
-            <div class="form">
-              <input
-                class="form__input"
-                type="text"
-                placeholder="What are you looking for?"
-              />
-              <img class="search" src="./assets/saerch.svg" alt=""/>
-            </div>
-          </form>
-          <div class="heart__cart">
-            <div class="heart__img">
-              <a href="#" class="heart__link">
-                <img src="./assets/heart.svg" alt="" />
-              </a>
-              <a href="#" class="basket__link">
-                <img src="./assets/basket.svg" alt="" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
 
-    <div class="line1"></div>
-    <div class="container">
-      <div class="intro2">
-        <div class="intro">
-          <div class="inform__iphone">
-            <div class="appleLogo">
-              <img src="./assets/apple-logo.svg" alt="" />
-              <div class="series__14">iPhone 14 Series</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/main.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="top__bar">
+                <p>Summer Sale For All Swim Suits And Express Delivery – OFF 50%! <a href="#">ShopNow</a></p>
+                <select class="language__select">
+                    <option value="en">English</option>
+                    <option value="ru">Русский</option>
+                </select>
             </div>
-            <div class="vaucher">Up to 10% off Voucher</div>
-            <a class="shop__now" href="#">Shop Now -></a>
-          </div>
-          <img class="iphone__img" src="./assets/iphone14.jpg" alt="" />
-        </div>
-      </div>
-    </div>
-    <main>
-      <section class="product__section">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <h2>Exclusive</h2>
+                    </div>
+                    <ul class="navbar__collection">
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">
+                                <span>Sign Up</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="search__bar">
+                        <form action="">
+                            <input type="text" placeholder="What are you looking for?">
+                            <button type="submit" ><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+                            <i class="fa-solid fa-heart" style="color: #000000;"></i>
+                            <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    <section class="hero">
         <div class="container">
-          <div class="product__title">
-            <div class="title__wrap">
-              <div class="title__wrapper">
-                <div class="title__box"></div>
-                <h2>Today's</h2>
-              </div>
-              <h2>Flash Sales</h2>
-            </div>
-            <div class="arrow__wrapper">
-              <a href="#" class="arrow__link">
-                <img src="./assets/left-arrow.svg" alt="" class="arrow__img">
-              </a>
-              <a href="#" class="arrow__link">
-                <img src="./assets/right-arrow.svg" alt="" class="arrow__img">
-              </a>
-            </div>
-          </div>
-          <div class="cards">
-            <div class="card__wrapper">
-              <div class="card">
-                <img class="card__img" src="./assets/gamepad.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="card__name">HAVIT HV-G92 Gamepad</div>
-                <div class="card_prices">
-                  <div class="card__discount">$120</div>
-                  <div class="card__real__price">$160</div>
+            <div class="hero__wrapper  ">
+                <div class="hero__item">
+                    <div class="hero__content">
+                        <div class="hero__brand">
+                            <i class="fa-brands fa-apple"></i>
+                            <p> iPhone 14 Series </p>
+                        </div>
+                        <h1 class="hero__title">
+                            Up to 10% off Voucher
+                        </h1>
+                        <a href="#" class="hero__link">
+                            Shop Now <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <img src="./assets/hero.png" alt="">
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
                 </div>
-                <img class="card__rating" src="./assets/Five-star.svg" alt="">
             </div>
-          </div>
-          <div class="card__wrapper">
-              <div class="card">
-                <img class="card__img" src="./assets/keyboard.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="card__name">AK-900 Wired Keyboard</div>
-                <div class="card_prices">
-                  <div class="card__discount">$960</div>
-                  <div class="card__real__price">$1160</div>
-                </div>
-                <img class="card__rating" src="./assets/Five-star.svg" alt="">
-            </div>
-          </div>
-          <div class="card__wrapper">
-              <div class="card">
-                <img class="card__img" src="./assets/screen.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="card__name">IPS LCD Gaming Monitor</div>
-                <div class="card_prices">
-                  <div class="card__discount">$370</div>
-                  <div class="card__real__price">$400</div>
-                </div>
-                <img class="card__rating" src="./assets/Five-star.svg" alt="">
-            </div>
-          </div>
-          <div class="card__wrapper">
-              <div class="card">
-                <img class="card__img" src="./assets/chair.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="card__name">S-Series Comfort Chair </div>
-                <div class="card_prices">
-                  <div class="card__discount">$375</div>
-                  <div class="card__real__price">$400</div>
-                </div>
-                <img class="card__rating" src="./assets/Five-star.svg" alt="">
-            </div>
-            </div>
-          </div>
-          <div class="product__btn">
-            <button>View All Products</button>
-          </div>
-      </section>
-      <section class="category__section">
-        <div class="container">
-          <div class="category__title">
-            <div class="title__wrap">
-              <div class="title__wrapper">
-                <div class="title__box"></div>
-                <h2>Categories</h2>
-              </div>
-              <h2>Browse By Category</h2>
-            </div>
-            <div class="arrow__wrapper">
-              <a href="#" class="arrow__link">
-                <img src="./assets/left-arrow.svg" alt="" class="arrow__img">
-              </a>
-              <a href="#" class="arrow__link">
-                <img src="./assets/right-arrow.svg" alt="" class="arrow__img">
-              </a>
-            </div>
-          </div>
-          <div class="category__cards">
-            <div class="category__card__wrapper">
-              <img src="./assets/phone.svg" alt="">
-              <p class="category__text">Phones</p>
-            </div>
-            <div class="category__card__wrapper">
-              <img src="./assets/pc.svg" alt="">
-              <p class="category__text">Computers</p>
-            </div>
-            <div class="category__card__wrapper">
-              <img src="./assets/watch.svg" alt="">
-              <p class="category__text">SmartWatch</p>
-            </div>
-            <div class="category__card__wrapper">
-              <img src="./assets/camera.svg" alt="">
-              <p class="category__text">Camera</p>
-            </div>
-            <div class="category__card__wrapper">
-              <img src="./assets/headphones.svg" alt="">
-              <p class="category__text">HeadPhones</p>
-            </div>
-            <div class="category__card__wrapper">
-              <img src="./assets/gaming.svg" alt="">
-              <p class="category__text">Gaming</p>
-            </div>
-          </div>
         </div>
-      </section>
-    </main>
-  </body>
+    </section>
+    <section class="flash__sale">
+        <div class="container">
+            <div class="flash__sale-content">
+                <div class="flash__sale-text">
+                    <p class="flash__sale-subtitle">Today's</p>
+                    <p class="flash__sale-title">Flash Sales</p>
+
+                </div>
+                <div class="timer">
+                    <div class="time">
+                        <span class="label">Days</span>
+                        <span id="days" class="number">4</span>
+
+                    </div>
+                    <span class="separator first">:</span>
+                    <div class="time">
+                        <span class="label">Hours</span>
+                        <span id="hours" class="number">26</span>
+
+                    </div>
+                    <span class="separator  second">:</span>
+                    <div class="time">
+                        <span class="label">Minutes</span>
+                        <span id="minutes" class="number">17</span>
+
+                    </div>
+                    <span class="separator  third">:</span>
+                    <div class="time">
+                        <span class="label">Seconds</span>
+                        <span id="seconds" class="number">00</span>
+
+                    </div>
+                </div>
+
+                <div class="flash__sale-actions">
+                    <button><i class="fa-solid fa-arrow-left"></i></button>
+                    <button><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+
+            <div class="flash__sale-wrapper">
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale1.png" alt="">
+                        <p class="percent">-40%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">HAVIT HV-G92 Gamepad</h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$120</span>
+                            <span class="flash__sale-item-price-old">$160</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Five star.png" alt="">
+                            <p class="flash__sale-stars-count"> (88)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale2.png" alt="">
+                        <p class="percent">-35%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">AK-900 Wired Keyboard</h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$960</span>
+                            <span class="flash__sale-item-price-old">$1160</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Four Star.png star.png Star.png star.png" alt="">
+                            <p class="flash__sale-stars-count"> (75)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale3.png" alt="">
+                        <p class="percent">-30%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">IPS LCD Gaming Monitor</h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$370</span>
+                            <span class="flash__sale-item-price-old">$400</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Five star.png" alt="">
+                            <p class="flash__sale-stars-count"> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale4.png" alt="">
+                        <p class="percent">-25%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">S-Series Comfort Chair </h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$375</span>
+                            <span class="flash__sale-item-price-old">$400</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Four Half Star.png" alt="">
+                            <p class="flash__sale-stars-count"> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale4.png" alt="">
+                        <p class="percent">-25%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">S-Series Comfort Chair </h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$375</span>
+                            <span class="flash__sale-item-price-old">$400</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Five star.png" alt="">
+                            <p class="flash__sale-stars-count"> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale2.png" alt="">
+                        <p class="percent">-35%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">AK-900 Wired Keyboard</h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$960</span>
+                            <span class="flash__sale-item-price-old">$1160</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Four Star.png star.png" alt="">
+                            <p class="flash__sale-stars-count"> (75)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale3.png" alt="">
+                        <p class="percent">-30%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">IPS LCD Gaming Monitor</h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$370</span>
+                            <span class="flash__sale-item-price-old">$400</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Five star.png" alt="">
+                            <p class="flash__sale-stars-count"> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash__sale-item">
+                    <div class="flash__sale-product">
+                        <img src="./assets/flashSale4.png" alt="">
+                        <p class="percent">-25%</p>
+                        <button class="heart"> <i class="fa-regular fa-heart"></i></button>
+                        <button class="eye"> <i class="fa-regular fa-eye"></i></button>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                    <div class="flash__sale-item-content">
+                        <h3 class="flash__sale-item-title">S-Series Comfort Chair </h3>
+                        <div class="flash__sale-item-price">
+                            <span class="flash__sale-item-price-new">$375</span>
+                            <span class="flash__sale-item-price-old">$400</span>
+                        </div>
+                        <div class="flash__sale-stars">
+                            <img src="./assets/Four Half Star.png" alt="">
+                            <p class="flash__sale-stars-count"> (99)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom__actions">
+                <button class="flash__sale-bottom-btn">View All Products</button>
+            </div>
+        </div>
+    </section>
+    <section class="category">
+        <hr class="category__line">
+            
+        <div class="container">
+           
+               <div class="category__content">
+                   <div class="category__text">
+                    <p class="flash__sale-subtitle">Categories</p>
+                    <p class="flash__sale-title">Browse By Category</p>
+
+                   </div>
+                    <div class="flash__sale-actions">
+                        <button><i class="fa-solid fa-arrow-left"></i></button>
+                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+               </div>
+               <div class="category__wrapper">
+                <div class="category__item">
+                    <i class="fa-solid fa-mobile-button"></i>
+                    <p class="category__item-title">Phones</p>
+                </div>
+                <div class="category__item">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="category__item-title">Computers</p>
+                </div>
+                <div class="category__item">
+                    <img src="./assets/smartWatchIcon.png" alt="">
+                    <p class="category__item-title">SmartWatch</p>
+                </div>
+                <div class="category__item">
+                    <i class="fa-solid fa-camera"></i>
+                    <p class="category__item-title">Camera</p>
+                </div>
+                <div class="category__item">
+                    <i class="fa-solid fa-headphones"></i>
+                    <p class="category__item-title">Headphones</p>
+                </div>
+                <div class="category__item">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <p class="category__item-title">Gaming</p>
+                </div>
+               </div>
+    
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./scripts/app.js"></script>
+</body>
+
 </html>
